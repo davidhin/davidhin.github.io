@@ -14,7 +14,7 @@ image:
 
 Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
 
-<iframe src="https://www.openprocessing.org/sketch/426978/embed/" width="1707" height="893"></iframe>
+<iframe src="https://www.openprocessing.org/sketch/426978/embed/" width="100%" height="400"></iframe>
 
 # Heading 1
 
