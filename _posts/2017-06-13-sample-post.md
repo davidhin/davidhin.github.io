@@ -39,7 +39,41 @@ The idea was to store information about each particle
 my algorithm for particle movement and collision. 
 
 all that new, fresh knowledge on arrays, functions and other similar beginners' programming concepts, I was ready to 
+### Unordered Lists
 
+* Item one
+* Item two
+* Item three
+
+## Tables
+
+| Header 1 | Header 2 | Header 3 |
+|:--------|:-------:|--------:|
+| cell 1   | cell 2   | cell 3   |
+| cell 4   | cell 5   | cell 6   |
+|----
+| cell 1   | cell 2   | cell 3   |
+| cell 4   | cell 5   | cell 6   |
+|=====
+| Foot 1   | Foot 2   | Foot 3   |
+
+## Code Snippets
+
+{% highlight css %}
+#container {
+  float: left;
+  margin: 0 -240px 0 0;
+  width: 100%;
+}
+{% endhighlight %}
+
+## Buttons
+
+Make any link standout more when applying the `.btn` class.
+
+{% highlight html %}
+<a href="#" class="btn btn-success">Success Button</a>
+{% endhighlight %}
 
 <div markdown="0"><a href="#" class="btn">Primary Button</a></div>
 <div markdown="0"><a href="#" class="btn btn-success">Success Button</a></div>
