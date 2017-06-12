@@ -4,6 +4,8 @@ title: Designing Particle Simulation in Processing
 excerpt: "A fun project to help develop fluency in data structures and algorithms"
 categories: [Processing]
 comments: true
+image:
+  feature: http://i.imgur.com/tflNWEO.gif
 ---
 
 ## HTML Elements
