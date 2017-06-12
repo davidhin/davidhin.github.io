@@ -2,6 +2,7 @@
 layout: post
 title: Designing Particle Simulation in Processing Part 1
 excerpt: "A fun project to help develop fluency in data structures and algorithms"
+categories: [Processing]
 comments: true
 image:
   feature: http://i.imgur.com/HsoPreD.png
