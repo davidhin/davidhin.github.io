@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Designing Particle Simulation in Processing
