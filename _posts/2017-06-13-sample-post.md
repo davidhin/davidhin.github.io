@@ -14,19 +14,16 @@ Lately I've been working on a [Processing](https://processing.org/) project for 
 
 Now, understandably, having just learned about how data can be stored in these wonderful data structures called arrays, I was completely ready to begin programming particle physics. For most in-class assignments, we had been mainly using arrays to store all our information. For example, in one of our exercisees, we were to make many floating bubbles appear on the screen at once, like so:
 
-<iframe src="https://www.openprocessing.org/sketch/426978/embed/" width="500" height="500"></iframe>
+<iframe src="https://www.openprocessing.org/sketch/426978/embed/" width="100%" height="400"></iframe>
 
 I stored the position of each bubble in an array, and use a for-loop to iterate through every array and update data such as the position of each bubble on the screen and its size. 
 
+Although, I figured I'm going to need a lot more than just arrays to make my particle simulation. My general idea was to create a 'Particle' class which contained information such as it's position, speed, acceleration, colour size and other useful information a particle would want. The problem was where to store all these particles. Originally, I decided to use an ArrayList, looping through every entry and updating their data. Most of the pseudocode looked a little like this:
 
-<iframe src="https://www.openprocessing.org/sketch/426978/embed/" width="100%" height="400"></iframe>
-
-The general idea was to create a 'Particle' class which contained information such as it's position, speed, acceleration, colour size and other useful information a particle would want.
-
-The idea was to store information about each particle 
-
-
-
-my algorithm for particle movement and collision. 
-
-all that new, fresh knowledge on arrays, functions and other similar beginners' programming concepts, I was ready to 
+    if <particle> is within 20 pixels of another particle {
+      Use trigonometry to bounce the particle off in the opposite direction
+    } else {
+      Accelerate down the screen
+    }
+    
+There was a whole lot of 'if' statements, for loops and commented code everywhere - the end result was very laggy and didn't really have much potential. At all. 
