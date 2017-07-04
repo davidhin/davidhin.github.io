@@ -24,11 +24,9 @@ I stored the position of each bubble in an array, and use a for-loop to iterate 
       Accelerate down the screen
     }
     
-There was a whole lot of 'if' statements, for loops and commented code everywhere - the end result was very laggy and didn't really have much potential. At all. 
+There was a whole lot of 'if' statements, for loops and commented code everywhere - the end result was very laggy and didn't really have much potential. At all. I turned to my practical demonstrators for a bit of help - one of them enthusiastically suggested that I should look into using hashmaps. Instead of intensively simulating circles on the screen and relying on Euclidean distance, characteristics of particles could instead be stored within a hashmap. For example, their x- and y-position. The only problem was my approach. My first attempt basically relied on calculating collisions based on whether two particles were in the same square, like so:
 
-I turned to my practical demonstrators for a bit of help - one of them enthusiastically suggested that I should look into using hashmaps. Instead of intensively simulating circles on the screen and relying on Euclidean distance, characteristics of particles could instead be stored within a hashmap. For example, their x- and y-position. 
-
-The only problem was my approach. My first attempt basically relied on calculating collisions based on whether two particles were in the same square, like so:
+<a href="http://imgur.com/emx6jXe"><img src="http://i.imgur.com/emx6jXe.png" title="source: imgur.com" /></a>
 
 I realised that a better way of checking for collisions was to do it before the particles moved into another square:
 
