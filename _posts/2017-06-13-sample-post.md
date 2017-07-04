@@ -45,8 +45,8 @@ This method resulted in something that was actually starting to look good! There
 * Speed was defined using the traditional distance per time, except with distance being represented by pixels. Perhaps a better solution would be to define speed using actual milliseconds instead. 
 * Sometimes it takes a while for the water to spread out into a line.
 
-There are a whole lot of other issues of course, most of them stemming how I designed my algorithms. There's also probably a lot of novice mistakes here and there, but as my first 'big' programming project that I've worked on, I'm pretty happy with the final result. Here is the live version:
+There are a whole lot of other issues of course, most of them stemming how I designed my algorithms. There's also probably a lot of novice mistakes here and there, but as my first 'big' programming project that I've worked on, I'm pretty happy with the final result. Here is the live version - left click for water particles, right click for stationary particles:
 
-<iframe src="https://www.openprocessing.org/sketch/432537/embed/" width="500" height="500"></iframe>
+<iframe src="https://www.openprocessing.org/sketch/432537/embed/" width="550" height="550"></iframe>
 
 Maybe one day when I'm a much better programmer, I'll come back to this project!
