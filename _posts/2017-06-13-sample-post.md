@@ -38,4 +38,15 @@ I realised that a better way of checking for collisions was to do it before the 
       Move to the right or left but do not move down
     }
 
-This method resulted in something that was actually starting to look good! There were just a few problems:
+This method resulted in something that was actually starting to look good! There were just a few problems which I didn't end up fixing before handing in this assignment:
+
+* Particles sometimes disappeared as time went on. The problem was that two particles could occasionally move into the same square at *just* the right time, causing one particle to be 'swallowed' up by the other. I never really solved this problem in the end, but instead used a bandaid solution: if this occured, then create a new particle on top of the overlapped particle. This resulted in some rather odd jumpy situations during the simnulation. 
+* Particle size could not be made smaller than a certain amount of pixels, as this would then amplify the above problem.
+* Speed was defined using the traditional distance per time, except with distance being represented by pixels. Perhaps a better solution would be to define speed using actual milliseconds instead. 
+* Sometimes it takes a while for the water to spread out into a line.
+
+There are a whole lot of other issues of course, most of them stemming how I designed my algorithms. There's also probably a lot of novice mistakes here and there, but as my first 'big' programming project that I've worked on, I'm pretty happy with the final result. Here is the live version:
+
+<iframe src="https://www.openprocessing.org/sketch/432537/embed/" width="500" height="500"></iframe>
+
+Maybe one day when I'm a much better programmer, I'll come back to this project!
