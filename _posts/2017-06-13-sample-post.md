@@ -47,4 +47,4 @@ There are a whole lot of other issues of course, most of them stemming how I des
 
 <iframe src="https://www.openprocessing.org/sketch/432537/embed/" width="550" height="550"></iframe>
 
-Maybe one day when I'm a much better programmer, I'll come back to this project!
+My presentation slides can be found [here](bit.ly/particlepres). Maybe one day when I'm a much better programmer, I'll come back to this project!
