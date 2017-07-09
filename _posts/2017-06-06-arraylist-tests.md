@@ -4,8 +4,6 @@ title: ArrayLists in Processing
 excerpt: "Using a for-loop and arraylist to create bouncing bubbles in Processing"
 categories: [processing]
 comments: true
-image:
-  feature: sample-image-2.jpg
 <!--image:
   feature: http://i.imgur.com/Sjb82wv.png
   credit: Powder Toy
