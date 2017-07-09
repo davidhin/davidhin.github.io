@@ -7,7 +7,7 @@ tags: [intro, beginner, jekyll, tutorial]
 comments: true
 pinned: true
 image:
-  feature: sample-image-2.jpg
+  feature: http://i.imgur.com/L3M1hIy.png
 ---
 
 ## HTML Elements
