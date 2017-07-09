@@ -5,7 +5,7 @@ excerpt: "A fun project to help develop fluency in data structures and algorithm
 categories: [Processing]
 comments: true
 image:
- feature: http://i.imgur.com/L3M1hIy.png
+feature: http://i.imgur.com/L3M1hIy.png
   <!-- credit: Powder Toy
   creditlink: http://powdertoy.co.uk/ -->
 ---
