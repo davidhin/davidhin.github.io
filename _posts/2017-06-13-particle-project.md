@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Designing Particle Simulation in Processing
-excerpt: "A fun project to help develop fluency in data structures and algorithms"
+excerpt: "An 'Introduction to Programming' Assignment"
 categories: [Processing]
 comments: true
 image:
