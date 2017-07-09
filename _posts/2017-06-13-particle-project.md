@@ -4,10 +4,6 @@ title: Designing Particle Simulation in Processing
 excerpt: "A fun project to help develop fluency in data structures and algorithms"
 categories: [Processing]
 comments: true
- image:
-  <!-- feature: http://i.imgur.com/Sjb82wv.png
-   credit: Powder Toy
-  creditlink: http://powdertoy.co.uk/ -->
 ---
  
 Lately I've been working on a [Processing](https://processing.org/) project for an Introduction to Programming course. Basically, the idea is to create a simple system for particles to interact with each other, inspired by that game everyone played in high school at one point, the [Powder Toy](powdertoy.co.uk). Of course, having just started my degree this year, I wouldn't be able to simulate things like fluid dynamics! So instead, I decided to set the bar a bit lower, and just use this project to become more familiar with data structures. 
