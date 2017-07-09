@@ -34,7 +34,7 @@ kramdown:
 #
 owner:
   name: David Hin
-  avatar: leonids-logo.png
+  # avatar: leonids-logo.png
   job: "Software engineering student"
   #bio:  "Software engineering student at the University of Adelaide"
   email:
