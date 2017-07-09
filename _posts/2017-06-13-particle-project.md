@@ -6,7 +6,7 @@ categories: [Processing]
 comments: true
  image:
   feature: http://i.imgur.com/Sjb82wv.png
-  <!--  credit: Powder Toy
+  <!-- credit: Powder Toy
   creditlink: http://powdertoy.co.uk/ -->
 ---
  
