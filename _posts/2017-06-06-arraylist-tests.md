@@ -14,4 +14,4 @@ When first learning programming concepts in my Introduction to Programming cours
 
 The actual project (shown below) displays and recalculates the position of individual bouncing circles by iterating through every object on the screen every frame. As you can imagine, it would get laggy quickly!
 
-<iframe src="https://www.openprocessing.org/sketch/438457/embed/" width="1707" height="893"></iframe>
+<iframe src="https://www.openprocessing.org/sketch/438457/embed/" width="100%" height="300"></iframe>
