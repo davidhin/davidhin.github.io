@@ -77,4 +77,16 @@ if ((a[left] < a[right] && left <= mid) || right > high)
 
 I condensed the extreme cases (e.g. [1,2,3,4,5,6] and [6,5,4,3,2,1]) into conditions which were included in the if statement. It seems to exploit the fact that C++ doesn't return "array out of bounds exception" error. I'm not sure whether this is a good solution but I've yet to find test cases where this doesn't work! 
 
-This merge sort implementation could be easily modified to count the number of inversions. By adding a global variable ~~~ invCount ~~~ 
+This merge sort implementation could be easily modified to count the number of inversions by adding a global variable *invCount* and adding a line to the 'else' statement in the merge function:
+
+~~~ c
+else {
+	temp[tempPos] = a[right];
+	right++;
+	tempPos++;
+	invCount += mid + 1 - left;
+}
+~~~
+
+
+	
