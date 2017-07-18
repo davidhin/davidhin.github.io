@@ -8,7 +8,7 @@ comments: true
 
 Recently I've been working on an [algorithms course](https://lagunita.stanford.edu/courses/course-v1:Engineering+Algorithms1+SelfPaced/info) hosted at Stanford University. The concept of divide and conquer was introduced through merge sort, which I wanted to be able to code in C++. 
 
-{% highlight css %} {% raw %}
+{% highlight html %} {% raw %}
 void printArr(int arr[], int n, int start = 0) {
 	std::cout << "[";
 	for (int i = start; i < n; ++i) {
