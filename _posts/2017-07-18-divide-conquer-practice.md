@@ -12,7 +12,7 @@ I feel like the trickiest part about this algorithm is understanding how the rec
 
 In the end, I tried coding the merge sort from scratch, and this is what I ended up with:
 
-~~~ cpp
+~~~ c
 void printArr(int arr[], int n, int start = 0) {
 	std::cout << "[";
 	for (int i = start; i < n; ++i) {
