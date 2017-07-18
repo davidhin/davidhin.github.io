@@ -8,7 +8,8 @@ comments: true
 
 Recently I've been working on an [algorithms course](https://lagunita.stanford.edu/courses/course-v1:Engineering+Algorithms1+SelfPaced/info) hosted at Stanford University. The concept of divide and conquer was introduced through merge sort, which I wanted to be able to code in C++. 
 
-{% raw %} 
+{% highlight html %}
+{% raw %}
 void merge(int a[], int low, int mid, int high) {
 	int arrSize = high - low + 1;
 
@@ -55,3 +56,4 @@ int main() {
 	return 0;
 }
 {% endraw %}
+{% endhighlight %}
